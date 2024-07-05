@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#third{
+    color: rgb(42, 116, 165);
+    background-color: #16091f;
+    text-align: center;
+}
+
+#first{
+    text-align: justify;
+}
+
+#second{
+    text-align: right;
+}
+
+article {
+    margin: 30px 10px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px #4b0b0b;
+}
+
+p, ul{
+    padding: 10px;
+    margin: 10px;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+h3, h1 {
+    text-align: center;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+h1{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.lorem{
+    font-size: 1.5rem;
+}
+
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: expanded;
+}
+
+.learnedSection{
+    background-image: url(https://images.unsplash.com/photo-1633410189542-36d96e3762b8?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    font-weight: 700;
+}
